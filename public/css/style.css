@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.products-table caption {
+    background-color: hsl(207, 70%, 24%);
+    color: #fff;
+    padding: .5em;
+    font-size: 1.4em;
+}
+
+.products-table th {
+    color: hsl(207, 70%, 15%);
+}
+
+.products-table tbody tr:nth-child(odd) {
+    background-color: hsl(207, 30%, 95%);
+}
+
+.products-table tbody tr:nth-child(even) {
+    background-color: hsl(207, 30%, 97%);
+}
+
+.products-table tbody a {
+    color: hsl(207, 100%, 30%);
+    text-decoration: none;
+}
+
+.products-table tbody a:hover {
+    color: hsl(207, 100%, 20%);
+    text-decoration: underline;
+}
+
+td,
+th {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+
+.form-group select,
+.form-group input:not([type="submit"], [type="reset"], [type="radio"], [type="checkbox"]) {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: .5em;
+}
